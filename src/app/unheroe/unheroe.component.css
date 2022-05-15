@@ -1,0 +1,13 @@
+h1,div{
+    color: aliceblue;
+}
+
+.btn{
+    border: solid 1px #EEEEEE;
+    color: #EEEEEE;
+}
+
+.btn:hover{
+    background: #EEEEEE;
+    color: black;
+}

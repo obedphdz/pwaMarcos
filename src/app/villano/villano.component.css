@@ -1,0 +1,46 @@
+h1{
+    color: aliceblue;
+}
+
+.card-body{
+    /* background: #DADBBD; */
+    animation: fondo 3s infinite ease-in-out;
+}
+
+@keyframes fondo {
+    0%{
+        background: #DADBBD;
+    }
+    50%{
+        background: #E5DCC3;
+    }
+    100%{
+        background: #C7BEA2;
+    }
+
+    
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+    }
+}

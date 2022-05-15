@@ -1,0 +1,16 @@
+.jumbotron{
+    background: #B20600;
+    color: white;
+}
+
+.btn{
+    background: #00092C;
+}
+
+.contenido{
+    /* background: #2A2550; */
+    background-image: url(../../assets/img/fondomodal.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}

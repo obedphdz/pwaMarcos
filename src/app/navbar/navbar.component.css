@@ -1,0 +1,13 @@
+.barra{
+    background: #B20600;
+}
+
+.btn{
+    border: solid 1px #EEEEEE;
+    color: #EEEEEE;
+}
+
+.btn:hover{
+    background: #EEEEEE;
+    color: black;
+}
