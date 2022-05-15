@@ -1,6 +1,6 @@
 
-<div class="row ">
-    <div *ngFor="let v of videos" class="card-columns ">
+<div class="row card-columns">
+    <div *ngFor="let v of videos" class=" ">
         <youtube-player [videoId]="v.video" SuggestedQuality="highres" [height]="250" [width]="350"></youtube-player>
     </div>
 </div>
