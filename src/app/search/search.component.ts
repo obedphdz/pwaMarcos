@@ -27,9 +27,13 @@ export class SearchComponent implements OnInit {
     Swal.fire({
          title: 'Heroe no encontrado',
          text: 'Este mensaje se auto destruira en 3 segundos',
-         timer: 2000,
-         timerProgressBar: true
+         timer: 3000,
+         timerProgressBar: true,
+         showConfirmButton: false
        }) 
+       Swal.update({
+           icon: 'error'
+        })
   }
   
 
