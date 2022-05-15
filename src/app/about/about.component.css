@@ -4,3 +4,45 @@
     align-items: center;  
     color: aliceblue;
 }
+
+@media (min-width: 220px) {
+    img {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 576px) {
+    img {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    img {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    img {
+        width: 600px;
+        height: 280px;
+    }
+}
+
+@media (min-width: 1200px) {
+    img {
+        width: 800px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1500px) {
+    img {
+        width: 1000px;
+        height: 600px;
+    }
+}
