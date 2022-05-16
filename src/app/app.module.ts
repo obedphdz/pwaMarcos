@@ -14,6 +14,7 @@ import { VideoComponent } from './video/video.component';
 import { VillanoComponent } from './villano/villano.component';
 import  { YouTubePlayerModule }  from  '@angular/youtube-player' ;
 
+
 @NgModule({
   declarations: [
     AppComponent,
