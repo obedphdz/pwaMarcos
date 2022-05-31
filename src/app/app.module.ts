@@ -12,7 +12,9 @@ import { UnheroeComponent } from './unheroe/unheroe.component';
 import { RegistroComponent } from './registro/registro.component';
 import { VideoComponent } from './video/video.component';
 import { VillanoComponent } from './villano/villano.component';
-import  { YouTubePlayerModule }  from  '@angular/youtube-player' ;
+import  { YouTubePlayerModule }  from  '@angular/youtube-player';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment' ;
 
 
 @NgModule({
@@ -31,7 +33,13 @@ import  { YouTubePlayerModule }  from  '@angular/youtube-player' ;
   imports: [
     BrowserModule,
     AppRoutingModule,
-    YouTubePlayerModule
+    YouTubePlayerModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
